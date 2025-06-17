@@ -1,6 +1,8 @@
 ﻿program правильная_кнопка;
 uses GraphABC,ABCButtons;
-var green1,green2,green3,green4,green5,green6,green7,green8,green9,green10,green11,green12,green13,green14,red,red1,red2,red3,red4,red5,red6,red7,red8,red9,red10,red11,red12,red13,red14,yellow,yellow1,yellow2,yellow3,yellow4,yellow5,yellow6,yellow7,yellow8,yellow9,yellow10,yellow11,yellow12,yellow13,yellow14,yellow15,yellow16,yellow17,yellow18,
+var green1,green2,green3,green4,green5,green6,green7,green8,green9,green10,green11,green12,green13,green14,
+red,red1,red2,red3,red4,red5,red6,red7,red8,red9,red10,red11,red12,red13,red14,
+yellow,yellow1,yellow2,yellow3,yellow4,yellow5,yellow6,yellow7,yellow8,yellow9,yellow10,yellow11,yellow12,yellow13,yellow14,yellow15,yellow16,yellow17,yellow18,
 yellow19,yellow20,yellow21,yellow22:ButtonABC;
 const dlina = 30;//кнопки
 procedure gameover():=System.Console.WriteLine('Ты проиграл!');
