@@ -293,6 +293,7 @@ begin
   a;
 end;
 begin
+  SetWindowTitle('Игра правильная кнопка');
   TextOut(0,0,'Добро пожаловать в игру "правильная кнопка".');
   yellow1:=new ButtonABC(130,100,dlina,dlina,'',clWhite);
   yellow1.OnClick:=ButtonClick15; 
